@@ -1,5 +1,5 @@
 //class with array holding question and answers//
- public void initData(){
+ public void questionData(){
         quiz[0][0] = "What is your favorite season?";
         quiz[0][1] = "Spring"; quiz[0][2] = "Summer"; quiz[0][3] = "Winter"; quiz[0][4] = "Fall";
         quiz[0][5] = "3";
@@ -17,8 +17,8 @@ public class newquiz extends javax.swing.JFrame {
   
     
     public newquiz() {
-        initComponents();
-        initData();
+        Components(); //has the button components in it
+        questionData();
         update();
         
     }
@@ -28,7 +28,7 @@ public void update(){
         jLabel1.setText(quiz[question][0]);
         jLabel3.setText(""+score);
         jButton1.setText(quiz[question][1]); jButton2.setText(quiz[question][2]);
-         jButton3.setText(quiz[question][3]);  jButton4.setText(quiz[question][4]);
+        jButton3.setText(quiz[question][3]);  jButton4.setText(quiz[question][4]);
     }
     
 //classes for each individual 'button' on javax with if statement//
@@ -36,9 +36,7 @@ private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         if(quiz[question][5]=="2"){
             score++;
-             jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/correct.jpg"))); //this image shows up for right answer
              else{
-             jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wrong.jpg"))); //this image shows up for wrong anser
         }
         question++;
         update();
