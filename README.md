@@ -1,4 +1,6 @@
 # C211-Project
+describing the project aim, the source files and their purpose, the interface functionality, and anything else the user might need to run the application. You should also credit each contributor for their work in the README file, as well as anyone or any site you used for resources (graphics, sound files, and so on).
+
 
 Title: Where Should You Travel?
   
