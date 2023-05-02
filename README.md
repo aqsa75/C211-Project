@@ -11,7 +11,7 @@ Interface functionality: this is a quiz that is made up of two buttons with answ
 
 Source File: newquiz.java --> this is where all of our code is placed and is important as it determines functionality of the game. 
 
-Graphic Source: iStock.com
+Graphic Source: iStock.com (collage.vacay jpg)
 
 Work Credit:  
         - class holding questions and answers [LEX]
