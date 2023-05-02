@@ -1,3 +1,5 @@
+//*****DEPRECATED*****//
+
 /*placeholder for question data to be added to main program
 
 public void initData(){
