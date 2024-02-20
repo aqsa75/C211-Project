@@ -9,7 +9,7 @@ Description/Aim: My Project is going to be a game that is designed to ask the us
 
 The GUI is composed of the question title, and then buttons for each of the two possible answers. Once the answer is selected, it will bring the user to the next question. After answering the ten questions, another screen will open with the selected travel destination for the user. When clicking on certain answer choices, you might notice the score in the bottom corner increment which helps us in determining a destination to assign to you. 
 
-Source File: newquiz.java --> this is where all of our code is placed and is important as it determines functionality of the game. 
+Source File: newquiz.java --> this is where all of my code is placed and is important as it determines functionality of the game. 
 
 Graphic Source: iStock.com (collage.vacay jpg)
 
